@@ -3,7 +3,7 @@ window.open("activity/der/dergame.html")
 }
 
 function gamemg(){
-alert("目前还在开发阶段，暂时没有上线计划，敬请期待~")
+alert("目前还在开发阶段，暂定7月末上线，敬请期待~")
 }
 
 function gamefashion(){
