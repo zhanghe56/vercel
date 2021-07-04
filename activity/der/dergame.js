@@ -26,8 +26,8 @@ document.getElementById("derlevel").innerHTML = "der哥";
          else{
          	//1000~10000
          	document.getElementById("derimg").src = "people3.png";
-}document.getElementById("derlevel").innerHTML = "渐入der境";
-         }
+document.getElementById("derlevel").innerHTML = "渐入der境";
+       }  }
          else
          {
          	//100~1000
