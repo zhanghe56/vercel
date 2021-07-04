@@ -62,5 +62,8 @@ alert("这里有充实的游戏，这里有精湛的美工，这里有一切你�
 }
 
 function clearall(){
-localStorage.der = "0"
+alert("还原成功！");
+           localStorage.der = "0"
+           document.getElementById("derresult").innerHTML = localStorage.der;
+           document.getElementById("derlevel").innerHTML = "一点也不der";
 }
