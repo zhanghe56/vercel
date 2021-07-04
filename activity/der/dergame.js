@@ -60,3 +60,7 @@ document.getElementById("derresult").innerHTML = localStorage.der;
 function introduction(){
 alert("这里有充实的游戏，这里有精湛的美工，这里有一切你想要的！欢迎游玩由XB小报实属灵魂画师团队出品的新游戏——史上最der的游戏！您要做的只有点击那个漂亮的小人。开始游戏吧~PS：特别感谢你寒王提供素材。der等级共5段，0~99，100~1k，1k~3k，3k~6k以及6k以上");
 }
+
+function clearall(){
+localStorage.der = "0"
+}
