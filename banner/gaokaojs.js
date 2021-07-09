@@ -11,7 +11,7 @@ window.XB.openwithbrowser('http://www.jletv.cn/');
 }
 
 function yfydcx(){
-alert("敬请期待！");
+window.XB.openwithbrowser('http://www.jleea.com.cn/2021/0703/3802.html');
 }
 
 function yxkyggk(){
