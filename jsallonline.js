@@ -1,7 +1,7 @@
 function checkvision() {
-sessionStorage.newvision=("58");
-sessionStorage.updateday=("2021.06.29");
-sessionStorage.newvisionname=("2.2.0629rev1");
+sessionStorage.newvision=("60");
+sessionStorage.updateday=("2021.07.09");
+sessionStorage.newvisionname=("2.2.0709rev1");
 window.XB.actionFromJsWithParam('当前版本号' + sessionStorage.visionname + "." + sessionStorage.visioncode);
  if (sessionStorage.visioncode==sessionStorage.newvision) {
      if(sessionStorage.visionname.indexOf(sessionStorage.newvisionname) !=-1){
@@ -43,7 +43,9 @@ function checkonlineres() {
 
 }
 
-
+function updateFunction() {
+   window.XB.openwithbrowser('https://zhanghe56.gitee.io/android_main/ziyuan.html');
+}
 
 
 function closeFunction() {
