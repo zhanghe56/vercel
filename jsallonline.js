@@ -1,7 +1,10 @@
+function jumptonew() {
+var str = navigator.userAgent;var reg = RegExp(/XBclient/);if(str.match(reg)){window.XB.openwithbrowser('https://zhanghe56.gitee.io/android_main/jumptonew.html');}else{
+window.location.href="https://wwa.lanzoui.com/iQlNTrpvmch";}}
 function checkvision() {
-sessionStorage.newvision=("62");
-sessionStorage.updateday=("2021.07.18");
-sessionStorage.newvisionname=("2.2.0718rev1");
+sessionStorage.newvision=("64");
+sessionStorage.updateday=("2021.07.22");
+sessionStorage.newvisionname=("2.2.0722rev1");
 window.XB.actionFromJsWithParam('当前版本号' + sessionStorage.visionname + "." + sessionStorage.visioncode);
  if (sessionStorage.visioncode==sessionStorage.newvision) {
      if(sessionStorage.visionname.indexOf(sessionStorage.newvisionname) !=-1){
@@ -44,7 +47,7 @@ function checkonlineres() {
 }
 
 function updateFunction() {
-   window.XB.openwithbrowser('https://zhanghe56.gitee.io/android_main/ziyuan.html');
+   window.XB.openwithbrowser('https://zhanghe56.gitee.io/android_main/jumptonew.html');
 }
 
 

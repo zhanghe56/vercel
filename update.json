@@ -1,0 +1,12 @@
+{
+  "latestVersion": "2.2.0722rev1.64",
+  "latestVersionCode": "64",
+  "url": "https://zhanghe56.gitee.io/android_main/jumptonew.html",
+  "releaseNotes": [
+    "XB小报2.2.0722rev1.64更新日志",
+    "新增：检查更新系统",
+    "优化：去除推送系统", 
+    "优化：21版本出现的巨大问题", 
+    "优化：其他BUG修复"
+  ]
+}
