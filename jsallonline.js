@@ -1,10 +1,9 @@
 function jumptonew() {
-var str = navigator.userAgent;var reg = RegExp(/XBclient/);if(str.match(reg)){window.XB.openwithbrowser('https://zhanghe56.gitee.io/android_main/jumptonew.html');}else{
-window.location.href="https://wwa.lanzoui.com/iQlNTrpvmch";}}
+window.location.href="https://wwa.lanzoui.com/iD8JJrvfmbg"}
 function checkvision() {
-sessionStorage.newvision=("64");
-sessionStorage.updateday=("2021.07.22");
-sessionStorage.newvisionname=("2.2.0722rev1");
+sessionStorage.newvision=("65");
+sessionStorage.updateday=("2021.07.26");
+sessionStorage.newvisionname=("2.2.0726rev1");
 window.XB.actionFromJsWithParam('当前版本号' + sessionStorage.visionname + "." + sessionStorage.visioncode);
  if (sessionStorage.visioncode==sessionStorage.newvision) {
      if(sessionStorage.visionname.indexOf(sessionStorage.newvisionname) !=-1){

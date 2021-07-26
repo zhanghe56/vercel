@@ -1,12 +1,13 @@
 {
-  "latestVersion": "2.2.0722rev1.64",
-  "latestVersionCode": "64",
+  "latestVersion": "2.2.0726rev1.65",
+  "latestVersionCode": "65",
   "url": "https://zhanghe56.gitee.io/android_main/jumptonew.html",
   "releaseNotes": [
-    "XB小报2.2.0722rev1.64更新日志",
-    "新增：检查更新系统",
-    "优化：去除推送系统", 
-    "优化：21版本出现的巨大问题", 
+  	"感谢你一直以来对XB小报的支持，下面为您介绍新版本的更新日志",
+    "XB小报2.2.0726rev1.65更新日志",
+    "新增：开发者工具生物识别",
+    "优化：开放源代码页支持跳转", 
+    "优化：引导页措辞再次调整", 
     "优化：其他BUG修复"
   ]
 }
