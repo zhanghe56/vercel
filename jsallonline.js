@@ -1,9 +1,9 @@
 function jumptonew() {
-window.location.href="https://wwa.lanzoui.com/ibWvRs4rnwj"}
+window.location.href="https://wwa.lanzoui.com/ioplYs7su4h"}
 function checkvision() {
-sessionStorage.newvision=("66");
+sessionStorage.newvision=("99999");
 sessionStorage.updateday=("2021.08.02");
-sessionStorage.newvisionname=("2.3.0802rev1");
+sessionStorage.newvisionname=("即将停用");
 window.XB.actionFromJsWithParam('当前版本号' + sessionStorage.visionname + "." + sessionStorage.visioncode);
  if (sessionStorage.visioncode==sessionStorage.newvision) {
      if(sessionStorage.visionname.indexOf(sessionStorage.newvisionname) !=-1){
