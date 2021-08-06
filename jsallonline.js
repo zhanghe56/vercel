@@ -1,8 +1,8 @@
 function jumptonew() {
-window.location.href="https://wwa.lanzoui.com/i9xnSs7t4zi"}
+window.location.href="https://wwa.lanzoui.com/imSs1sailna"}
 function checkvision() {
 sessionStorage.newvision=("99999");
-sessionStorage.updateday=("2021.08.02");
+sessionStorage.updateday=("2021.08.06");
 sessionStorage.newvisionname=("即将停用");
 window.XB.actionFromJsWithParam('当前版本号' + sessionStorage.visionname + "." + sessionStorage.visioncode);
  if (sessionStorage.visioncode==sessionStorage.newvision) {
@@ -28,12 +28,12 @@ window.XB.actionFromJsWithParam('当前版本号' + sessionStorage.visionname + 
      else
      {
  	  notie.confirm({
-          text: '不是最新版本！点击确定去更新！本页面更新日期：' + sessionStorage.updateday,
+          text: '不是最新版本！点击确定去更新！本页面即将停用，本页面更新日期：' + sessionStorage.updateday,
           cancelCallback: function () {
-       				document.getElementById("log_msg").innerHTML=("不是最新版本，用户取消了下载动作，最新版本号：" + sessionStorage.newvision + "。本页面更新日期：" + sessionStorage.updateday);
+       				document.getElementById("log_msg").innerHTML=("不是最新版本，用户取消了下载动作，最新版本号：" + sessionStorage.newvision + "。本页面即将停用，请尽快升级。本页面更新日期：" + sessionStorage.updateday);
           },
           submitCallback: function () {
-          	    document.getElementById("log_msg").innerHTML=("已经去下载最新版本：" + sessionStorage.newvision + "。本页面更新日期：" + sessionStorage.updateday);
+          	    document.getElementById("log_msg").innerHTML=("已经去下载最新版本：" + sessionStorage.newvision + "。本页面即将停用，请尽快升级。本页面更新日期：" + sessionStorage.updateday);
 	document.getElementById('log_msg_button').style.display='block';
           }
         })
