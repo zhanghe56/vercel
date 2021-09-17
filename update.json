@@ -1,13 +1,13 @@
 {
-  "latestVersion": "2.3.0916rev1.73",
-  "latestVersionCode": "73",
+  "latestVersion": "2.3.0917rev1.74",
+  "latestVersionCode": "74",
   "url": "https://zhanghe56.gitee.io/android_main/jumptonew.html",
   "releaseNotes": [
   	"感谢你一直以来对XB小报的支持，XB小报最新版本已经发布，下面为您介绍该版本的更新日志",
-    "XB小报2.3.0916rev1.73更新日志",
+    "XB小报2.3.0917rev1.74更新日志",
     "XB小报V2.3：底层重构，有颜又有料！",
-    "1.优化：解决了部分问题，体验更棒！",
-    "此刻ZH纵有万般想法，但迫于上线要求无法实现，且身心俱疲，择日再更便是了",
-    "——ZH 2021.9.16"
+    "1.新增：服务器选择选项增加ZH服务器",
+    "2.新增：首次启动及设置页增加自动判断并选择服务器",
+    "3.优化：某些功能优化"
   ]
 }
