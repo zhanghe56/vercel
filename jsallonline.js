@@ -1,5 +1,5 @@
 function jumptonew() {
-window.location.href="https://www.lanzouw.com/if2JBu59szc"}
+window.location.href="https://www.lanzouw.com/itJFGum0vzi"}
 function checkvision() {
 sessionStorage.newvision=("99999");
 sessionStorage.updateday=("2021.08.06");
