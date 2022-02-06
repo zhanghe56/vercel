@@ -1,12 +1,15 @@
 {
-  "latestVersion": "2.4.0203rev1.82",
-  "latestVersionCode": "82",
+  "latestVersion": "2.4.0206rev1.83",
+  "latestVersionCode": "83",
   "url": "https://zhanghe56.gitee.io/android_main/jumptonew.html",
   "releaseNotes": [
     "感谢大家使用XB小报APP！Material You主题来啦~以下是本次更新的更新日志",
-    "XB小报2.4.0203rev1.82更新日志",
-    "1.新增：适配Material You设计风格",
-    "2.新增：主页一言现在可以长按复制了",
-    "3.优化：优化了一些其他影响稳定性的问题"
+    "XB小报2.4.0206rev1.83更新日志",
+    "1.新增：账号系统现在支持更改密码和提交、撤回注销申请了",
+    "2.优化：Web模块部分功能优化",
+    "3.优化：检查更新弹窗适配最新的设计风格",
+    "4.优化：修复了切换横屏模式时发生闪退的问题",
+    "5.优化：去掉了首次启动时的网络检测",
+    "6.优化：优化了一些其他影响稳定性的问题"
   ]
 }
