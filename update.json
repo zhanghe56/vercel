@@ -1,13 +1,11 @@
 {
-  "latestVersion": "2.4.0304rev1.86",
-  "latestVersionCode": "86",
+  "latestVersion": "2.4.0318rev1.87",
+  "latestVersionCode": "87",
   "url": "https://zhanghe56.gitee.io/android_main/jumptonew.html",
   "releaseNotes": [
     "感谢大家使用XB小报APP！Material You主题来啦~以下是本次更新的更新日志",
-    "XB小报2.4.0304rev1.86更新日志",
-    "1.优化：断网时账号页面的处理流程",
-    "2.优化：解决了昵称冲突时提示弹窗弹出两次的问题",
-    "3.优化：校园工具箱的一个nc问题",
-    "4.优化：优化了一些其他影响稳定性的问题"
+    "XB小报2.4.0318rev1.87更新日志",
+    "1.优化：优化了一些其他影响稳定性的问题", 
+    "ps:本次更新仅为例行质量更新，不涉及新内容，如旧版本不影响使用可先不更新，具体修复的BUG：小内存手机内存溢出问题；首次启动输入昵称弹窗多次弹出问题"
   ]
 }
