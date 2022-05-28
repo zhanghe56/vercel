@@ -1,9 +1,9 @@
 function jumptonew() {
-window.location.href="https://wwm.lanzouw.com/iFKoi03zwsih"}
+window.location.href="https://wwm.lanzouw.com/itEmt05kyipi"}
 function checkvision() {
 sessionStorage.newvision=("99999");
-sessionStorage.updateday=("2021.08.06");
-sessionStorage.newvisionname=("即将停用");
+sessionStorage.updateday=("2022.05.29");
+sessionStorage.newvisionname=("已经停用");
 window.XB.actionFromJsWithParam('当前版本号' + sessionStorage.visionname + "." + sessionStorage.visioncode);
  if (sessionStorage.visioncode==sessionStorage.newvision) {
      if(sessionStorage.visionname.indexOf(sessionStorage.newvisionname) !=-1){
@@ -28,7 +28,7 @@ window.XB.actionFromJsWithParam('当前版本号' + sessionStorage.visionname + 
      else
      {
  	  notie.confirm({
-          text: '不是最新版本！点击确定去更新！本页面即将停用，本页面更新日期：' + sessionStorage.updateday,
+          text: '不是最新版本！点击确定去更新！本更新系统已经停用，请尽快升级以使用新版更新系统。本页面更新日期：' + sessionStorage.updateday,
           cancelCallback: function () {
        				document.getElementById("log_msg").innerHTML=("不是最新版本，用户取消了下载动作，最新版本号：" + sessionStorage.newvision + "。本页面即将停用，请尽快升级。本页面更新日期：" + sessionStorage.updateday);
           },
