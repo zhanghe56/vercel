@@ -1,14 +1,13 @@
 {
-  "latestVersion": "2.4.0528rev1.92",
-  "latestVersionCode": "92",
+  "latestVersion": "2.4.0714rev1.93",
+  "latestVersionCode": "93",
   "url": "https://zhanghe56.gitee.io/android_main/jumptonew.html",
   "releaseNotes": [
     "感谢大家使用XB小报APP！Material You主题来啦~以下是本次更新的更新日志",
-    "XB小报2.4.0528rev1.92更新日志",
-"1.优化：优化了在切换页面时首页logo的刷新频率",
-            "2.优化：优化了各个页面对部分服务器返回错误的处理",
-            "3.优化：因某些原因，更改了国内主服务器的url，如有改动需要请使用自定义服务器功能",
-            "4.优化：优化了一些其他影响稳定性的问题"
+    "XB小报2.4.0714rev1.93更新日志",
+            "1.新增：账号系统界面支持刷新信息功能",
+            "2.新增：XB小报主模块新增网页加载进度条",
+            "3.优化：优化了一些其他影响稳定性的问题"
 
             ]
 }
