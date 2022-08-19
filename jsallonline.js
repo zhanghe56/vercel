@@ -1,5 +1,7 @@
 function jumptonew() {
-window.location.href="https://wwm.lanzouw.com/ieJh107tjh7a"}
+window.location.href="https://wwm.lanzouw.com/iEhNr09nb5hg"}
+function jumptobanner() {
+window.location.href="activity/ver2.4/banner.html"}
 function checkvision() {
 sessionStorage.newvision=("99999");
 sessionStorage.updateday=("2022.05.29");
