@@ -1,7 +1,7 @@
 function jumptonew() {
-window.location.href="https://wwm.lanzouw.com/iEhNr09nb5hg"}
+window.location.href="https://wwm.lanzouw.com/iyH1d0aa1cla"}
 function jumptobanner() {
-window.location.href="activity/ver2.4/banner.html"}
+window.location.replace("activity/ver2.5/banner.html")}
 function checkvision() {
 sessionStorage.newvision=("99999");
 sessionStorage.updateday=("2022.05.29");
@@ -45,6 +45,10 @@ window.XB.actionFromJsWithParam('当前版本号' + sessionStorage.visionname + 
 
 function checkonlineres() {
 
+}
+
+function sleep(d){
+  for(var t = Date.now();Date.now() - t <= d;);
 }
 
 function updateFunction() {
