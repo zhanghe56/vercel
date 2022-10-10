@@ -42,6 +42,8 @@ window.XB.actionFromJsWithParam('当前版本号' + sessionStorage.visionname + 
 	}
 	}
 }
+function jumptoheal() {
+window.location.href="http://101.35.173.174/healthy"}
 
 function checkonlineres() {
 
