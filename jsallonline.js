@@ -1,5 +1,5 @@
 function jumptonew() {
-window.location.href="https://wwm.lanzouw.com/iyH1d0aa1cla"}
+window.location.href="https://wwm.lanzouw.com/iOE5F0e0a2xa"}
 function jumptobanner() {
 window.location.replace("activity/ver2.5/banner.html")}
 function checkvision() {
