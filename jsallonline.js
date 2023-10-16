@@ -1,5 +1,5 @@
 function jumptonew() {
-   window.location.href = "https://wwzx.lanzouw.com/iDir515asr2j"
+   window.location.href = "https://wwzx.lanzouw.com/iBMO61c03sdi"
 }
 function jumptobanner() {
    window.location.replace("activity/ver2.5/banner.html")
@@ -58,7 +58,7 @@ function sleep(d) {
 }
 
 function updateFunction() {
-   window.XB.openwithbrowser('https://zhanghe56.gitee.io/android_main/jumptonew.html');
+   window.XB.openwithbrowser('https://zhanghe56.pages.dev/webservice/jumptonew.html');
 }
 
 
