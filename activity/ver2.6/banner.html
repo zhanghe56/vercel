@@ -20,55 +20,65 @@
 </head>
 
 <body>
-    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
-        <span class="fs-2">XB小报V2.6焕然一新</span>
-    </header>
-    <div style="text-align:left;font-size:13px;font-weight:1">
-        新版本更新内容<br>
-    </div>
-    <div style="text-align:left;font-size:20px;font-weight:1">
-        1.XB小报V2.6：焕然一新<br>
-        2.新增：APP底层-支持Material Design动态颜色<br>
-        3.新增：APP底层-新增天气对比功能<br>
-        4.新增：Web模块-完全重制了Web模块<br>
-        5.新增：Web模块-支持解压并使用旧版资源包<br>
-        6.优化：APP底层-新增导入收藏一言过程中的进度条<br>
-        7.优化：APP底层-修复同步ZH服务器成功通知是否开启功能在设置中的默认值异常问题<br>
-        8.优化：APP底层-更新数据统计SDK及隐私政策<br>
-        9.优化：APP底层-服务端隐私政策版本更新时，重新征求同意<br>
-        10.优化：APP底层-优化了菜单与主页的图标风格<br>
-        11.优化：账号系统-新增将服务器时区转换至设备时区功能<br>
-        12.优化：账号系统-新增站内信修改时间<br>
-        13.优化：账号系统-修复我的消息长信息无法完全显示的BUG<br>
-        14.优化：账号系统-优化了账号系统页面的图标风格<br>
-        15.优化：Web模块-Web模块新增在浏览器中打开<br>
-        16.优化：其他-优化了其他一些影响稳定性的问题<br>
-    </div>
-
-    <hr />
-
-    <div style="text-align:left;font-size:13px;font-weight:1">
-        ZH的例行碎碎念<br>
-    </div>
-    <div style="text-align:left;font-size:20px;font-weight:1">
-        大家好！好久不见，大家想我了吗🤗？一转眼已经过去一年半了，想当初2.5版本更新时，还说2.5版本是第100个版本有纪念意义的一个大版本，结果2.5版本一年半时间里只发布了5个小版本，最后版本号停留在99。<br>
-        那么就意味着本版本发布后，XB小报的版本号将正式进入三位数时代。版本号变长会导致一些奇奇怪怪的问题，其中之一就是旧版Web模块获取版本号的机制是按位数从后到前读取，长一位就意味着少读取一位。借此机会我们对其进行了修复。<br>
-        你以为只有修复那么简单吗？No,No,No~借此机会，我们也正式开工，重制了Web模块的大部分页面，使其整体设计风格与主题与主程序保持一致，同时，新版本的Web模块还支持与主程序的主题颜色保持一致（虽然仍然不支持夜间模式），终于使Web模块与主程序的风格不再割裂，美观了不少。<br>
-        同时，我们并没有彻底去除旧版Web模块，我们将其打包存放于APP中。目前新版重制的Web模块还可能存在部分问题，您需要时可以自主选择旧版、新版资源包，并可以设置中随时解压、删除旧版资源包或设置默认的资源包版本。<br>
-        本版本还增加了不少实用的新功能，包括预告已久的Material You动态配色和两地天气对比功能，这些功能进一步充实了XB小报的整体功能矩阵（同时也填上了之前挖的坑）。<br>
-        新版本，新开局。为此，我们选择了焕然一新作为2.6版本的关键词，希望全新的Web模块与众多新功能能使您的使用更加得心应手。最后，感谢屏幕前的您一直以来对XB小报的支持！<br>
-        <div style="text-align:right;font-size:20px;font-weight:1">
-            ZH<br>
-            2024.2.13
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+            <span class="fs-2">XB小报V2.6焕然一新</span>
+        </header>
+        <div style="text-align:left;font-size:13px">
+            新版本更新内容<br>
         </div>
-    </div>
-    <hr />
+        <div style="text-align:left;font-size:20px">
+            1.XB小报V2.6：焕然一新<br>
+            2.新增：APP底层-支持Material Design动态颜色<br>
+            3.新增：APP底层-新增天气对比功能<br>
+            4.新增：Web模块-完全重制了Web模块<br>
+            5.新增：Web模块-支持解压并使用旧版资源包<br>
+            6.优化：APP底层-新增导入收藏一言过程中的进度条<br>
+            7.优化：APP底层-修复同步ZH服务器成功通知是否开启功能在设置中的默认值异常问题<br>
+            8.优化：APP底层-更新数据统计SDK及隐私政策<br>
+            9.优化：APP底层-服务端隐私政策版本更新时，重新征求同意<br>
+            10.优化：APP底层-优化了菜单与主页的图标风格<br>
+            11.优化：账号系统-新增将服务器时区转换至设备时区功能<br>
+            12.优化：账号系统-新增站内信修改时间<br>
+            13.优化：账号系统-修复我的消息长信息无法完全显示的BUG<br>
+            14.优化：账号系统-优化了账号系统页面的图标风格<br>
+            15.优化：Web模块-Web模块新增在浏览器中打开<br>
+            16.优化：其他-优化了其他一些影响稳定性的问题<br>
+            1.新增：Web模块-新版资源包支持夜间模式啦<br>
+            2.新增：Web模块-首次进入新版资源包时提示打开相应功能开关<br>
+            3.优化：APP底层-修复了关于页面正版检测功能错误的提示debug版的问题<br>
+            4.优化：APP底层-更新数据统计SDK及隐私政策<br>
+            5.优化：APP底层-更新了cloudflare镜像的地址<br>
+            6.优化：Web模块-修复了旧版资源包引导页面无法获取昵称的问题<br>
+            7.优化：其他-优化了其他一些影响稳定性的问题<br>
+        </div>
 
-    <div style="text-align:left;font-size:13px;font-weight:1">
-        写在最后<br>
-    </div>
-    <div style="text-align:left;font-size:20px;font-weight:1">
-        感谢大家下载使用XB小报APP！<br>
+        <hr />
+
+        <div style="text-align:left;font-size:13px">
+            ZH的例行碎碎念<br>
+        </div>
+        <div style="text-align:left;font-size:20px">
+            大家好！好久不见，大家想我了吗🤗？一转眼已经过去一年半了，想当初2.5版本更新时，还说2.5版本是第100个版本有纪念意义的一个大版本，结果2.5版本一年半时间里只发布了5个小版本，最后版本号停留在99。<br>
+            那么就意味着本版本发布后，XB小报的版本号将正式进入三位数时代。版本号变长会导致一些奇奇怪怪的问题，其中之一就是旧版Web模块获取版本号的机制是按位数从后到前读取，长一位就意味着少读取一位。借此机会我们对其进行了修复。<br>
+            你以为只有修复那么简单吗？No,No,No~借此机会，我们也正式开工，重制了Web模块的大部分页面，使其整体设计风格与主题与主程序保持一致，同时，新版本的Web模块还支持与主程序的主题颜色保持一致（虽然仍然不支持夜间模式），终于使Web模块与主程序的风格不再割裂，美观了不少。<br>
+            同时，我们并没有彻底去除旧版Web模块，我们将其打包存放于APP中。目前新版重制的Web模块还可能存在部分问题，您需要时可以自主选择旧版、新版资源包，并可以设置中随时解压、删除旧版资源包或设置默认的资源包版本。<br>
+            本版本还增加了不少实用的新功能，包括预告已久的Material You动态配色和两地天气对比功能，这些功能进一步充实了XB小报的整体功能矩阵（同时也填上了之前挖的坑）。<br>
+            新版本，新开局。为此，我们选择了焕然一新作为2.6版本的关键词，希望全新的Web模块与众多新功能能使您的使用更加得心应手。最后，感谢屏幕前的您一直以来对XB小报的支持！<br>
+            <div style="text-align:right;font-size:20px">
+                ZH<br>
+                2024.2.13
+            </div>
+        </div>
+
+        <hr />
+
+        <div style="text-align:left;font-size:13px">
+            写在最后<br>
+        </div>
+        <div style="text-align:left;font-size:20px">
+            感谢大家下载使用XB小报APP！<br>
+        </div>
     </div>
     <nav class="navbar border-top" style="margin-top: 5pt;">
         <div class="container-fluid">

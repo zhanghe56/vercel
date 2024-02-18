@@ -1,5 +1,5 @@
 function jumptonew() {
-   window.location.href = "https://wwm.lanzn.com/iTZAv1o5sfxc"
+   window.location.href = "https://wwm.lanzn.com/iNgzc1omnxwb"
 }
 function jumptobanner() {
    window.location.replace("activity/ver2.6/banner.html")
